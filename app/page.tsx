@@ -23,7 +23,7 @@ function SuccessContent() {
         )}
         <div className="mt-6">
           <h2 className="text-sm font-medium text-gray-500 mb-2">Query Parameters:</h2>
-          <div className="bg-gray-50 rounded p-3 text-left">
+          <div className="bg-gray-50 rounded p-3 text-left text-gray-900">
             {Array.from(searchParams.entries()).map(([key, value]) => (
               <div key={key} className="text-sm">
                 <span className="font-medium">{key}:</span> {value}
